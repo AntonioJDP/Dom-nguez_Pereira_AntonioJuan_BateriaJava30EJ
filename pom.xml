@@ -10,4 +10,5 @@
         <maven.compiler.release>24</maven.compiler.release>
         <exec.mainClass>com.alborfp.bateriajava30ejercicios.BateriaJava30ejercicios</exec.mainClass>
     </properties>
+    <name>Dominguez_AntonioJuan_UD3_ACT1</name>
 </project>
