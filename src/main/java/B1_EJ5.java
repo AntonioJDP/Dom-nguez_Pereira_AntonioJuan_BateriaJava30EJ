@@ -22,15 +22,15 @@ public class B1_EJ5 {
             System.out.println("Error");}
         else if (numeroEJ5 < 5) {
             System.out.println("Suspenso");
-        } else if (numeroEJ5 >= 5 && numeroEJ5 < 6) {
+        } else if (numeroEJ5 < 6) {
             System.out.println("Aprobado");
-        } else if (numeroEJ5 >= 6 && numeroEJ5 < 7) {
+        } else if (numeroEJ5 < 7) {
             System.out.println("Bien");
-        } else if (numeroEJ5 >= 7 && numeroEJ5 < 9) {
+        } else if (numeroEJ5 < 9) {
             System.out.println("Notable");
-        } else if (numeroEJ5 >= 9 && numeroEJ5 <= 10) {
+        } else if (numeroEJ5 < 10) {
             System.out.println("Sobresaliente");
-        } else if (numeroEJ5 >10){
+        } else if (numeroEJ5 > 10){
         System.out.println("Error");
         
     }
