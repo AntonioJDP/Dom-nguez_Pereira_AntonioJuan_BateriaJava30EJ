@@ -19,9 +19,9 @@ public class B1_EJ10 {
      */
     public static void main(String[] args) { 
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Elige 1 para Celsius a Fahrenheit,"
-                + " 2 para Fahrenheit a Celsius,"
-                + " 3 para Salir");
+        System.out.println("1.Celsius a Fahrenheit");
+        System.out.println("2.Fahrenheit a Celsisus");
+        System.out.println("3.Salir");
         int OpcionEJ10 = teclado.nextInt();
     
         switch(OpcionEJ10){

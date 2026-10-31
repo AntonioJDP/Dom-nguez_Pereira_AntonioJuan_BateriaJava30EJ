@@ -18,7 +18,22 @@ public class B2_EJ20 {
         int numeroA = teclado.nextInt();
         System.out.println("Numero positivo B:");
         int numeroB = teclado.nextInt();
-        for (int i = 0; i < numeroB; i++) {
+        if((numeroA > 0 && numeroB>0) && (numeroA <numeroB)){
+            for(int i = numeroA; i<=numeroB; i++)
+                if (i % 3==0 & i%5==0){
+                    System.out.println("Numeros divisibles entre 3 y 5:"+i);
+            
+                    
+               
+                    
+                
+            
+        
+               
+                
+            
+                }       
+            
         
             
         }
